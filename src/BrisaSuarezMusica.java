@@ -4,7 +4,7 @@ public class BrisaSuarezMusica {
 
 	private String titulocancion;
 	private String genero;
-	public String nombreHobby;
+	private String nombreHobby;
 	
 public BrisaSuarezMusica(String titulocancion , String genero, String nombreHobby) {
 		super();
