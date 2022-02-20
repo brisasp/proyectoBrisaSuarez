@@ -9,7 +9,7 @@ public class BrisaSuarezMusica {
 public BrisaSuarezMusica(String titulocancion , String genero, String nombreHobby) {
 		super();
 		this.setTitulocancion(titulocancion);
-		this.genero = genero;
+		this.setGenero(genero);
 		this.nombreHobby = nombreHobby;
 }
 
@@ -19,6 +19,14 @@ public String getTitulocancion() {
 
 public void setTitulocancion(String titulocancion) {
 	this.titulocancion = titulocancion;
+}
+
+public String getGenero() {
+	return genero;
+}
+
+public void setGenero(String genero) {
+	this.genero = genero;
 }
 
 
