@@ -10,7 +10,7 @@ public BrisaSuarezMusica(String titulocancion , String genero, String nombreHobb
 		super();
 		this.setTitulocancion(titulocancion);
 		this.setGenero(genero);
-		this.nombreHobby = nombreHobby;
+		this.setNombreHobby(nombreHobby);
 }
 
 public String getTitulocancion() {
@@ -29,5 +29,8 @@ public void setGenero(String genero) {
 	this.genero = genero;
 }
 
-	
+public String getNombreHobby() {
+	return nombreHobby;
+}
+
 }
