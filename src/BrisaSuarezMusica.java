@@ -16,5 +16,11 @@ public BrisaSuarezMusica(String titulocancion , String genero, String nombreHobb
 public String getTitulocancion() {
 	return titulocancion;
 }
+
+public void setTitulocancion(String titulocancion) {
+	this.titulocancion = titulocancion;
+}
+
+
 	
 }
