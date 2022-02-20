@@ -2,8 +2,8 @@
 public class BrisaSuarezMusica {
 
 
-	public String titulocancion;
-	public String genero;
+	private String titulocancion;
+	private String genero;
 	public String nombreHobby;
 	
 public BrisaSuarezMusica(String titulocancion , String genero, String nombreHobby) {
